@@ -14,3 +14,6 @@ for i in range(len(encrypted_text)):
     else:
         decrypted_text += encrypted_text[i]
 # print result
+print('\033[32m~' * (len(decrypted_text) - 5) + '\033[0m')
+print(decrypted_text + '\033[0m')
+print('\033[32m~' * (len(decrypted_text) - 5) + '\033[0m')
